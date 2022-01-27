@@ -29,6 +29,21 @@ p {
     line-height: 1.3cm;
 }
 
+.cta {
+    width: fit-content;
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+    background-color: #436C95;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p a {
+    color: #FF6A62;
+    font-size: 18px;
+}
+
 .logo {
     float: left;
     display: block;
