@@ -19,6 +19,14 @@ h2 {
     color: #436C95;
     font-family: "Caveat", cursive;
     font-weight: bolder;
+    font-size: 50px;
+}
+
+p {
+    color: #436C95;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    line-height: 1.3cm;
 }
 
 .logo {
@@ -49,8 +57,58 @@ li a {
     color: #FF6A62;
 }
 
-.adventures {
+.grid1 {
+    width: 100%;
     margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.hikingDesc {
+    padding-right: 30px;
+}
+
+.hiking {
+    float: right;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+.grid2 {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.campingDesc {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.camping {
+    float: left;
+    border-radius: 15px;
+}
+
+.grid3 {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.fishingDesc {
+    padding-right: 30px;
+}
+
+.fishing {
+    float: right;
+    margin-right: 30px;
+    border-radius: 15px;
 }
 
 .footerlogo {
@@ -72,8 +130,8 @@ li a {
     background-color: #436C95;
     display: flex;
     list-style: none;
-    margin: 0;
+    margin-right: 30px;
     font-family: "Leto", sans-serif;
-    justify-content: center;
+    justify-content: end;
     padding: 1em;
 }
