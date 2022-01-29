@@ -47,6 +47,10 @@ p {
     padding-right: 10px;
 }
 
+.cta a {
+    text-decoration: none;
+}
+
 p a {
     color: #C5E3AA;
     font-size: 18px;
