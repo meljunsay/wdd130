@@ -2,17 +2,24 @@ body {
     background-color: #A3B7DD;
 }
 
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 * {
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 h1 {
     color: #436C95;
     font-family: 'caveat', cursive;
-    font-size: 80px;
+    font-size: 5vw;
     background-color: #FF6A62;
     text-align: center;
+    padding-right: 1em;
 }
 
 h2 {
@@ -27,6 +34,7 @@ p {
     font-family: "Rubik", sans-serif;
     font-size: 20px;
     line-height: 1.3cm;
+    text-align: justify;
 }
 
 .cta {
@@ -52,19 +60,22 @@ p a {
 }
 
 .navbar {
-    width: 100vw;
+    width: 130vw;
     background-color: #436C95;
+    color:#A3B7DD;
+    text-align: center;
 }
 
 .navlinks {
     list-style: none;
     display: flex;
-    margin: 1em;
-    font-family: "Leto", sans-serif;
-    font-size: 20px;
+    margin: 2em;
+    font-family: "Rubik", sans-serif;
+    font-size: 100%;
     font-weight: bold;
     justify-content: space-around;
     padding: 1em;
+   
 }
 
 li a {
@@ -72,10 +83,16 @@ li a {
     color: #FF6A62;
 }
 
+.raftingImage {
+    border-radius: 15px;
+}
+
+.raftingDesc {
+    text-align: justify;
+}
+
 .grid1 {
     width: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
     display: flex;
     align-items: center;
 }
@@ -86,21 +103,17 @@ li a {
 
 .hiking {
     float: right;
-    margin-right: 30px;
     border-radius: 15px;
 }
 
 .grid2 {
     width: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
     display: flex;
     align-items: center;
 }
 
 .campingDesc {
     padding-left: 30px;
-    padding-right: 30px;
 }
 
 .camping {
@@ -110,8 +123,6 @@ li a {
 
 .grid3 {
     width: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
     display: flex;
     align-items: center;
 }
@@ -122,31 +133,41 @@ li a {
 
 .fishing {
     float: right;
-    margin-right: 30px;
     border-radius: 15px;
 }
 
-.footerlogo {
+#footerlogo {
     border-radius: 50%;
 }
 
-.footer-logo {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 15px;
+.footer {
+    background-color: #436C95;
+    display: grid;
+    align-items: baseline;
+    grid-template-columns: auto 75%;
+    color: #A3B7DD;
 }
 
 .footernav {
-    width: 100vw;
     text-decoration: none;
-    font-size: 18px;
-    background-color: #436C95;
     display: flex;
-    list-style: none;
-    margin-right: 30px;
-    font-family: "Leto", sans-serif;
-    justify-content: end;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
     padding: 1em;
+}
+
+.footernav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: normal;
+}
+
+#copyright {
+    color: #A3B7DD;
+    text-align: left;
+    font-size: x-small;
+    padding-left: 1em;
 }
