@@ -18,8 +18,8 @@ h1 {
     font-family: 'caveat', cursive;
     font-size: 5vw;
     background-color: #FF6A62;
-    text-align: center;
-    padding-right: 1em;
+    text-align: left;
+    padding: .16em;
 }
 
 h2 {
@@ -33,7 +33,7 @@ p {
     color: #436C95;
     font-family: "Rubik", sans-serif;
     font-size: 20px;
-    line-height: 1.3cm;
+    line-height: 1.1cm;
     text-align: justify;
 }
 
@@ -57,12 +57,13 @@ p a {
     display: block;
     margin: 1em;
     border-radius: 50%;
+    width: 25%;
+    height: auto;
 }
 
 .navbar {
-    width: 130vw;
     background-color: #436C95;
-    color:#A3B7DD;
+    color: #A3B7DD;
     text-align: center;
 }
 
@@ -75,7 +76,6 @@ p a {
     font-weight: bold;
     justify-content: space-around;
     padding: 1em;
-   
 }
 
 li a {
