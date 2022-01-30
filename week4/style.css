@@ -1,5 +1,5 @@
 body {
-    background-color: #A3B7DD;
+    background-color: #EBF2FF;
 }
 
 .page {
@@ -16,10 +16,13 @@ body {
 h1 {
     color: #436C95;
     font-family: 'caveat', cursive;
-    font-size: 5vw;
-    background-color: #FF6A62;
+    font-size: 5.5vw;
+    /* border: #436C95 solid 2px; */
+    background-color: #A3B7DD;
     text-align: left;
     padding: .16em;
+    height: 205px;
+    border-radius: 0 0 10px 10px;
 }
 
 h2 {
@@ -74,7 +77,7 @@ p a {
 .navlinks {
     list-style: none;
     display: flex;
-    margin: 2em;
+    margin: 0;
     font-family: "Rubik", sans-serif;
     font-size: 100%;
     font-weight: bold;
@@ -84,11 +87,11 @@ p a {
 
 li a {
     text-decoration: none;
-    color: #FF6A62;
+    color: #A3B7DD;
 }
 
 .raftingImage {
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .raftingDesc {
@@ -107,7 +110,7 @@ li a {
 
 .hiking {
     float: right;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .grid2 {
@@ -122,7 +125,7 @@ li a {
 
 .camping {
     float: left;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .grid3 {
@@ -137,7 +140,7 @@ li a {
 
 .fishing {
     float: right;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #footerlogo {
