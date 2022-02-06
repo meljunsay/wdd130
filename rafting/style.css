@@ -62,7 +62,7 @@ p a {
 }
 
 .logo {
-    float: center;
+    float: none;
     display: inline;
     height: auto;
     width: 130px;
