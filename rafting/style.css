@@ -18,12 +18,13 @@ h1 {
     font-family: "caveat", Handlee, Rock Salt, cursive;
     font-size: 80px;
     /* border: #436C95 solid 2px; */
-    background-color: #A3B7DD;
+    background-color: #DFE9FF;
     text-align: center;
     padding: .16em;
     height: 205px;
     border-radius: 0 0 10px 10px;
     text-shadow: 4px 4px 3px #0a2b4b;
+    border: solid 1px #0a2b4b;
 }
 
 h2 {
@@ -57,7 +58,7 @@ p {
 }
 
 p a {
-    color: #C5E3AA;
+    color: #D6F2BE;
     font-size: 18px;
 }
 
@@ -95,7 +96,9 @@ p a {
 
 li a {
     text-decoration: none;
-    color: #A3B7DD;
+    color: #DFE9FF;
+    font-size: 20px;
+    font-weight: 500:
 }
 
 .raftingImage {
@@ -163,8 +166,8 @@ li a {
     background-color: #436C95;
     display: grid;
     align-items: baseline;
-    grid-template-columns: auto 55%;
-    color: #A3B7DD;
+    grid-template-columns: auto 40%;
+    color: #DFE9FF;
 }
 
 .footernav ul {
@@ -179,8 +182,8 @@ li a {
 }
 
 #copyright {
-    color: #A3B7DD;
+    color: #DFE9FF;
     text-align: left;
-    font-size: x-small;
+    font-size: medium;
     padding-left: 1em;
 }
