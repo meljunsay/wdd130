@@ -1,11 +1,11 @@
 body {
     background-color: #EBF2FF;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1040px;
 }
 
-.page {
-    max-width: 960px;
-    margin: 0 auto;
-}
 
 * {
     margin: 0;
@@ -14,17 +14,13 @@ body {
 }
 
 h1 {
-    color: #436C95;
+    color: #d8e2f9;
     font-family: "caveat", Handlee, Rock Salt, cursive;
-    font-size: 80px;
+    font-size: 35px;
     /* border: #436C95 solid 2px; */
-    background-color: #DFE9FF;
-    text-align: center;
-    padding: .16em;
-    height: 205px;
-    border-radius: 0 0 10px 10px;
     text-shadow: 4px 4px 3px #0a2b4b;
-    border: solid 1px #0a2b4b;
+    padding-left: 15px;
+   
 }
 
 h2 {
@@ -63,23 +59,20 @@ p a {
 }
 
 .logo {
-    float: none;
-    display: inline;
-    height: auto;
-    width: 130px;
-    overflow-y: hidden;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 100px;
+    margin-left: 5px;
     border-radius: 0 0 10px 10px;
 }
 
 .navbar {
     background-color: #436C95;
     color: #A3B7DD;
-    text-align: center;
+    text-align: left;
     display: grid;
-    align-items: flex-start;
-    grid-template-columns: auto 80%;
-    max-height: 60px;
+    grid-template-columns: auto 1fr 1fr;
+    max-height: 150px;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
 }
 
 .navlinks ul {
@@ -88,10 +81,9 @@ p a {
     flex-direction: row;
     margin: 0;
     font-family: "Rubik", sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     justify-content: space-around;
-    padding-top: 15px;
 }
 
 li a {
@@ -99,18 +91,38 @@ li a {
     color: #DFE9FF;
     font-size: 20px;
     font-weight: 500:
+    
+}
+
+.bannerContainer {
+    position:relative;
+    width: 100%;
+}
+.CTAbutton {
+font-family:"Rubik",Arial, sans-serif;
+font-size: 25px;
+font-weight:bolder;
+background-color: #D6F2BE;
+color: #0a2b4b;
+padding: 15px;
+position: absolute;
+width: 150px;
+text-align: center;
+top: 5em;
+left: 17.5em;
+border-radius: 10px;
 }
 
 .raftingImage {
     border-radius: 10px;
     box-shadow: #0a2b4b 0px 22px 100px 10px;
-}
+
 
 .raftingDesc {
     text-align: justify;
 }
 
-.grid1 {
+.hikingGrid {
     display: grid;
     grid-template-columns: auto 50%;
     align-items: center;
@@ -126,7 +138,7 @@ li a {
     box-shadow: #0a2b4b 0px 22px 100px 10px;
 }
 
-.grid2 {
+.campingGrid {
     display: grid;
     grid-template-columns: 50% auto;
     align-items: center;
@@ -142,7 +154,7 @@ li a {
     box-shadow: #0a2b4b 0px 22px 100px 10px;
 }
 
-.grid3 {
+.fishingGrid {
     display: grid;
     grid-template-columns: auto 50%;
     align-items: center;
