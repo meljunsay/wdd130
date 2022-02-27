@@ -95,7 +95,7 @@
         padding: 15px;
         width: 300px;
         background-color: #D6F2BE;
-        background-image: linear-gradient(180deg, #D6F2BE 40%, #f88985 100%, #D6F2BE 0%);
+        background-image: linear-gradient(180deg, #D6F2BE 40%, #436C95 100%, #D6F2BE 100%);
         text-align: center;
         box-shadow: #EBF2FF 0px 0px 10px 5px;
         height: 120px;
@@ -132,7 +132,7 @@
         border-radius: 5px;
         opacity: 100%;
         font-weight: bolder;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        box-shadow: rgba(166, 182, 235, 0.25) 0px 50px 100px -20px, #EBF2FF 0px 30px 60px -30px, #EBF2FF 0px -2px 6px 0px inset;
     }
     
     .raftingImage {
