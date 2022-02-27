@@ -43,7 +43,6 @@
     
     .navbar {
         background-color: #436C95;
-        
         color: #A3B7DD;
         text-align: left;
         display: grid;
@@ -98,10 +97,12 @@
         background-color: #D6F2BE;
         background-image: linear-gradient(180deg, #D6F2BE 40%, #f88985 100%, #D6F2BE 0%);
         text-align: center;
+        box-shadow: #EBF2FF 0px 0px 10px 5px;
         height: 120px;
         opacity: 95%;
         color: #0a2b4b;
-        border-radius: 10px;
+        border: solid 3px #EBF2FF;
+        border-radius: 15px;
         text-shadow: 0 0 5px#9DE45E, 0 0 10px #9DE45E, 0 0 15px #9DE45E, 0 0 20px #9DE45E, 0 0 30px #9DE45E, 0 0 20px #87EB2E, 0 0 25px #87EB2E, 0 0 25px #87EB2E;
     }
     
@@ -118,9 +119,9 @@
         border-radius: 10px;
         text-decoration: none;
     }
-
-    .CTAbutton a:hover{
-        color: #f59797;
+    
+    .CTAbutton a:hover {
+        color: #f88985;
     }
     
     .CTAbutton a {
@@ -226,7 +227,6 @@
         padding: 1em;
         align-items: center;
         justify-content: space-between;
-        
     }
     
     .copyright {
@@ -235,7 +235,8 @@
         font-size: medium;
         padding-left: 1em;
     }
-    .socials{
+    
+    .socials {
         background-color: #ffffff;
         width: auto;
         height: auto;
