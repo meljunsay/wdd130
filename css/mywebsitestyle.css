@@ -4,13 +4,18 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     color: #231A1D;
+    box-sizing: border-box;
+    font-size: 22px;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    clip-path: polygon(49% 10%, 81% 0, 100% 16%, 100% 45%, 76% 71%, 50% 100%, 24% 71%, 0 45%, 0 12%, 21% 0);
+    border: solid 2px #231A1D;
+    border-radius: 50%;
+    box-shadow: #ffbb01 0px 0px 15px 10px;
+    /*clip-path: polygon(49% 10%, 81% 0, 100% 16%, 100% 45%, 76% 71%, 50% 100%, 24% 71%, 0 45%, 0 12%, 21% 0);*/
 }
 
 .aboutme {
@@ -40,24 +45,24 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Caveat', cursive;
 }
 
 ul {
-    font-size: 16px;
+    /*font-size: 16px;*/
     font-family: 'Rubik', sans-serif;
     line-height: 1.6;
 }
 
 p {
-    font-size: 16px;
+    /*font-size: 16px;*/
     font-family: 'Rubik', sans-serif;
     line-height: 1.6;
 }
 
 ol {
-    font-size: 16px;
+    /*font-size: 16px;*/
     font-family: 'Rubik', sans-serif;
     line-height: 1.6;
 }
