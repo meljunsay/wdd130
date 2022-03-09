@@ -1,245 +1,331 @@
-    body {
-        background-color: #EBF2FF;
-        box-sizing: border-box;
-        margin: 0 auto;
-        padding: 0;
-        max-width: 1040px;
-    }
-    
-    h1 {
-        color: #d8e2f9;
-        font-family: "caveat", Handlee, Rock Salt, cursive;
-        font-size: 35px;
-        text-shadow: 4px 4px 3px #0a2b4b;
-        padding-left: 15px;
-    }
-    
-    h2 {
-        color: #436C95;
-        font-family: "caveat", Handlee, Rock Salt, cursive;
-        font-weight: bolder;
-        font-size: 50px;
-        text-shadow: 2px 3px 3px #0a2b4b;
-    }
-    
-    p {
-        color: #436C95;
-        font-family: "Rubik", Lato, Ubuntu, sans-serif;
-        font-size: 20px;
-        line-height: 1.1cm;
-        text-align: justify;
-    }
-    
-    p a {
-        color: #D6F2BE;
-        font-size: 18px;
-    }
-    
-    .logo {
-        width: 100px;
-        margin-left: 5px;
-        border-radius: 0 0 10px 10px;
-    }
-    
-    .navbar {
-        background-color: #436C95;
-        color: #A3B7DD;
-        text-align: left;
-        display: grid;
-        grid-template-columns: auto 1fr 1fr;
-        max-height: 150px;
-        border-radius: 0 0 10px 10px;
-        align-items: center;
-    }
-    
-    .navigation ul {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        font-family: "Rubik", sans-serif;
-        font-size: 18px;
-        font-weight: bold;
-        justify-content: space-around;
-    }
-    
-    .navigation a:hover {
-        color: #0a2b4b;
-        background-color: #d8e2f9;
-        padding: 5px;
-        border-radius: 5px;
-        font-weight: 900;
-        font-size: 18px;
-    }
-    
-    li a {
-        text-decoration: none;
-        color: #DFE9FF;
-        font-size: 20px;
-        font-weight: 500;
-    }
-    
-    .bannerContainer {
-        display: block;
-        position: relative;
-        width: 100%;
-    }
-    
-    .aboveCTA {
-        position: absolute;
-        top: 2.5em;
-        left: 15em;
-        font-family: "caveat", Handlee, Rock Salt, cursive;
-        font-size: 25px;
-        font-weight: bolder;
-        padding: 15px;
-        width: 300px;
-        background-color: #D6F2BE;
-        background-image: linear-gradient(180deg, #D6F2BE 40%, #436C95 100%, #D6F2BE 100%);
-        text-align: center;
-        box-shadow: #EBF2FF 0px 0px 10px 5px;
-        height: 120px;
-        opacity: 95%;
-        color: #0a2b4b;
-        border: solid 3px #EBF2FF;
-        border-radius: 15px;
-        text-shadow: 0 0 5px#9DE45E, 0 0 10px #9DE45E, 0 0 15px #9DE45E, 0 0 20px #9DE45E, 0 0 30px #9DE45E, 0 0 20px #87EB2E, 0 0 25px #87EB2E, 0 0 25px #87EB2E;
-    }
-    
-    .CTAbutton {
-        font-family: "Rubik", Arial, sans-serif;
-        font-size: 25px;
-        font-weight: bolder;
-        color: #0a2b4b;
-        padding: 15px;
-        position: absolute;
-        text-align: center;
-        top: 5em;
-        left: 18em;
-        border-radius: 10px;
-        text-decoration: none;
-    }
-    
-    .CTAbutton a:hover {
-        color: #f88985;
-    }
-    
-    .CTAbutton a {
-        text-decoration: none;
-        color: #D6F2BE;
-        background-color: #436C95;
-        padding: 15px;
-        border-radius: 5px;
-        opacity: 100%;
-        font-weight: bolder;
-        box-shadow: rgba(166, 182, 235, 0.25) 0px 50px 100px -20px, #EBF2FF 0px 30px 60px -30px, #EBF2FF 0px -2px 6px 0px inset;
-    }
-    
-    .raftingImage {
-        border-radius: 10px;
-        box-shadow: #577695 0px 5px 10px 10px;
-        margin-left: 0;
-    }
-    
-    .raftingDesc {
-        text-align: justify;
-        border-bottom: solid 2px #436C95;
-        padding-bottom: 15px;
-    }
-    
-    .hikingGrid {
-        display: grid;
-        grid-template-columns: auto auto;
-        align-items: center;
-        border-bottom: solid 2px #436C95;
-        padding-bottom: 40px;
-    }
-    
-    .hikingDesc {
-        padding-right: 60px;
-    }
-    
-    .hiking {
-        grid-column: 2/3;
-        border-radius: 10px;
-        box-shadow: #577695 0px 5px 10px 10px;
-    }
-    
-    .campingGrid {
-        display: grid;
-        grid-template-columns: auto auto;
-        align-items: center;
-        border-bottom: solid 2px #436C95;
-        padding-bottom: 30px;
-    }
-    
-    .campingDesc {
-        padding-left: 60px;
-    }
-    
-    .camping {
-        float: left;
-        border-radius: 10px;
-        box-shadow: #577695 0px 5px 10px 10px;
-    }
-    
-    .fishingGrid {
-        display: grid;
-        grid-template-columns: auto 50%;
-        align-items: center;
-    }
-    
-    .fishingDesc {
-        padding-right: 30px;
-    }
-    
-    .fishing {
-        float: right;
-        border-radius: 10px;
-        box-shadow: #577695 0px 5px 10px 10px;
-    }
-    
-    .footer {
-        background-color: #436C95;
-        display: grid;
-        align-items: baseline;
-        grid-template-columns: auto 40%;
-        color: #DFE9FF;
-        border-radius: 10px 10px 0 0;
-        max-height: 150px;
-    }
-    
-    .footer a:hover {
-        color: #0a2b4b;
-        background-color: #d8e2f9;
-        padding: 5px;
-        border-radius: 5px;
-        font-weight: 900;
-        font-size: 18px;
-    }
-    
-    .footernav ul {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        font-size: 18px;
-        font-family: "Rubik", sans-serif;
-        padding: 1em;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .copyright {
-        color: #DFE9FF;
-        text-align: left;
-        font-size: medium;
-        padding-left: 1em;
-    }
-    
-    .socials {
-        background-color: #ffffff;
-        width: auto;
-        height: auto;
-        padding: 8px 8px 5px 8px;
-        border-radius: 3px;
-    }
+        body {
+            background-color: #EBF2FF;
+            box-sizing: border-box;
+            margin: 0 auto;
+            padding: 0;
+            max-width: 1040px;
+        }
+        
+        h1 {
+            color: #d8e2f9;
+            font-family: "caveat", Handlee, Rock Salt, cursive;
+            font-size: 35px;
+            text-shadow: 4px 4px 3px #0a2b4b;
+            padding-left: 15px;
+        }
+        
+        h2 {
+            color: #436C95;
+            font-family: "caveat", Handlee, Rock Salt, cursive;
+            font-weight: bolder;
+            font-size: 50px;
+            text-shadow: 2px 3px 3px #0a2b4b;
+        }
+        
+        p {
+            color: #436C95;
+            font-family: "Rubik", Lato, Ubuntu, sans-serif;
+            font-size: 20px;
+            line-height: 1.1cm;
+            text-align: justify;
+        }
+        
+        p a {
+            color: #D6F2BE;
+            font-size: 18px;
+        }
+        
+        .logo {
+            width: 100px;
+            margin-left: 5px;
+            border-radius: 0 0 15px 15px;
+            display: flex;
+            padding-bottom: 5px;
+        }
+        
+        .navbar {
+            background-color: #436C95;
+            color: #A3B7DD;
+            text-align: left;
+            display: grid;
+            grid-template-columns: auto 1fr 1fr;
+            max-height: 150px;
+            border-radius: 0 0 10px 10px;
+            align-items: center;
+        }
+        
+        .navigation ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            font-family: "Rubik", sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            justify-content: space-around;
+        }
+        
+        .navigation a:hover {
+            color: #0a2b4b;
+            background-color: #d8e2f9;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: 900;
+            font-size: 18px;
+        }
+        
+        .navMenu {
+            text-decoration: none;
+            color: #DFE9FF;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        
+        .bannerContainer {
+            display: block;
+            position: relative;
+            width: 100%;
+        }
+        
+        .aboveCTA {
+            position: absolute;
+            top: 2.5em;
+            left: 15em;
+            font-family: "caveat", Handlee, Rock Salt, cursive;
+            font-size: 25px;
+            font-weight: bolder;
+            padding: 15px;
+            width: 300px;
+            background-color: #D6F2BE;
+            background-image: linear-gradient(180deg, #D6F2BE 40%, #436C95 100%, #D6F2BE 100%);
+            text-align: center;
+            box-shadow: #EBF2FF 0px 0px 10px 5px;
+            height: 120px;
+            opacity: 95%;
+            color: #0a2b4b;
+            border: solid 3px #EBF2FF;
+            border-radius: 15px;
+            text-shadow: 0 0 5px#9DE45E, 0 0 10px #9DE45E, 0 0 15px #9DE45E, 0 0 20px #9DE45E, 0 0 30px #9DE45E, 0 0 20px #87EB2E, 0 0 25px #87EB2E, 0 0 25px #87EB2E;
+        }
+        
+        .CTAbutton {
+            font-family: "Rubik", Arial, sans-serif;
+            font-size: 25px;
+            font-weight: bolder;
+            color: #0a2b4b;
+            padding: 15px;
+            position: absolute;
+            text-align: center;
+            top: 5em;
+            left: 18em;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        
+        .CTAbutton a:hover {
+            color: #f88985;
+        }
+        
+        .CTAbutton a {
+            text-decoration: none;
+            color: #D6F2BE;
+            background-color: #436C95;
+            padding: 15px;
+            border-radius: 5px;
+            opacity: 100%;
+            font-weight: bolder;
+            box-shadow: rgba(166, 182, 235, 0.25) 0px 50px 100px -20px, #EBF2FF 0px 30px 60px -30px, #EBF2FF 0px -2px 6px 0px inset;
+        }
+        
+        .raftingImage {
+            border-radius: 10px;
+            box-shadow: #577695 0px 5px 10px 10px;
+            margin-left: 0;
+        }
+        
+        .raftingDesc {
+            text-align: justify;
+            border-bottom: solid 2px #436C95;
+            padding-bottom: 15px;
+        }
+        
+        .hikingGrid {
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            border-bottom: solid 2px #436C95;
+            padding-bottom: 40px;
+        }
+        
+        .hikingDesc {
+            padding-right: 60px;
+        }
+        
+        .hiking {
+            grid-column: 2/3;
+            border-radius: 10px;
+            box-shadow: #577695 0px 5px 10px 10px;
+        }
+        
+        .campingGrid {
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            border-bottom: solid 2px #436C95;
+            padding-bottom: 30px;
+        }
+        
+        .campingDesc {
+            padding-left: 60px;
+        }
+        
+        .camping {
+            float: left;
+            border-radius: 10px;
+            box-shadow: #577695 0px 5px 10px 10px;
+        }
+        
+        .fishingGrid {
+            display: grid;
+            grid-template-columns: auto 50%;
+            align-items: center;
+        }
+        
+        .fishingDesc {
+            padding-right: 30px;
+        }
+        
+        .fishing {
+            float: right;
+            border-radius: 10px;
+            box-shadow: #577695 0px 5px 10px 10px;
+        }
+        
+        .footer {
+            background-color: #436C95;
+            display: grid;
+            align-items: baseline;
+            grid-template-columns: auto 40%;
+            color: #DFE9FF;
+            border-radius: 10px 10px 0 0;
+            max-height: 150px;
+        }
+        
+        .footer a:hover {
+            color: #0a2b4b;
+            background-color: #d8e2f9;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: 900;
+            font-size: 18px;
+        }
+        
+        .footernav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            font-size: 18px;
+            font-family: "Rubik", sans-serif;
+            padding: 1em;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color: #d8e2f9;
+            font-family: 'rubik', sans-serif;
+            font-weight: 900;
+        }
+        
+        .copyright {
+            color: #DFE9FF;
+            text-align: left;
+            font-size: medium;
+            padding-left: 1em;
+        }
+        
+        .socials {
+            background-color: #ffffff;
+            width: auto;
+            height: auto;
+            padding: 8px 8px 5px 8px;
+            border-radius: 3px;
+        }
+        /* Shop Page */
+        
+        .shopNavigation {
+            background-color: #436C95;
+            color: #A3B7DD;
+            text-align: right;
+            display: grid;
+            grid-template-columns: 20% 1fr auto;
+            max-height: 150px;
+            border-radius: 0 0 10px 10px;
+            align-items: center;
+        }
+        
+        .productGridWrapper {
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 10px 10px;
+            grid-template-areas: none;
+            justify-items: stretch;
+            max-width: 1040px;
+            margin-bottom: 30px;
+        }
+        
+        .shopGears {
+            background-color: #436C95;
+            font-size: 60px;
+            padding: 10px;
+            border-radius: 0 0 10px 10px;
+            margin-bottom: 0;
+            margin-top: 0.5em;
+        }
+        
+        .account a {
+            padding-right: 15px;
+        }
+        
+        input {
+            display: flex;
+            background-color: white;
+            padding: 5px;
+            width: 500px;
+            height: 40px;
+            border-radius: 30px;
+            border-style: none;
+            font-size: larger;
+            text-indent: 10px;
+            font-family: "Rubik", sans-serif;
+            color: #0a2b4b;
+        }
+        
+        .categoriesWrapper {
+            display: grid;
+            grid-template-columns: 20% 1fr 1fr;
+            align-items: baseline;
+        }
+        
+        .featuredProduct {
+            margin-bottom: 20px;
+        }
+        
+        .categories {
+            list-style: none;
+            display: flex;
+            flex-flow: row;
+            font-family: "Rubik", sans-serif;
+            font-size: 22px;
+            justify-content: space-between;
+            padding-right: 10px;
+        }
+        
+        .shopCat {
+            text-decoration: none;
+            color: #436C95;
+            font-weight: 900;
+        }
