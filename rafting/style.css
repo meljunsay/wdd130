@@ -240,7 +240,7 @@ p a {
 ul li a {
     text-decoration: none;
     color: #d8e2f9;
-    font-family: 'rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-weight: 900;
 }
 
@@ -410,9 +410,6 @@ input {
     width: 700px;
     background-color: #d8e2f9;
     box-shadow: 0 0 20px rgb(24, 16, 16);
-    top: 50%;
-    left: 50%;
-    transform: translate (-50%, -50%);
 }
 
 form {
