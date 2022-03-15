@@ -405,3 +405,49 @@ input {
 .accordion__input:checked~.accordion__label::after {
     transform: translateY(-50%) rotate(0.5turn);
 }
+
+.contact_box {
+    width: 700px;
+    background-color: #d8e2f9;
+    box-shadow: 0 0 20px rgb(24, 16, 16);
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+}
+
+form {
+    margin: 35px;
+    padding: 20px;
+}
+
+.input_field {
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #0a2b4b;
+    border-radius: 15px;
+}
+
+.textarea_field {
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #0a2b4b;
+    border-radius: 15px;
+}
+
+.contact_button {
+    border-radius: 20px;
+    color: #0a2b4b;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #9DE45E;
+    font-size: 14px;
+    border: 1px solid #0a2b4b;
+    text-decoration: none;
+    font-weight: 300;
+}
