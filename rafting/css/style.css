@@ -11,12 +11,36 @@ main {
     height: auto;
 }
 
-h1 {
+.h1_home {
     color: #d8e2f9;
     font-family: "caveat", Handlee, Rock Salt, cursive;
-    font-size: 35px;
+    font-size: 50px;
     text-shadow: 4px 4px 3px #0a2b4b;
-    padding-left: 15px;
+    padding-left: 35px;
+    margin: 10px;
+    background-color: #436C95;
+    max-width: fit-content;
+}
+
+.h1_shop {
+    margin: 0;
+    color: #d8e2f9;
+    font-family: "caveat", Handlee, Rock Salt, cursive;
+    font-size: 45px;
+    text-shadow: 4px 4px 3px #0a2b4b;
+    padding: 15px;
+    background-color: #436C95;
+}
+
+.h1_Sub {
+    margin-left: 0;
+    color: #d8e2f9;
+    font-family: "caveat", Handlee, Rock Salt, cursive;
+    font-size: 45px;
+    text-shadow: 4px 4px 3px #0a2b4b;
+    padding: 15px;
+    background-color: #436C95;
+    max-width: fit-content;
 }
 
 h2 {
@@ -42,10 +66,11 @@ p a {
 
 .logo {
     width: 100px;
-    margin-left: 5px;
+    padding-left: 10px;
     border-radius: 0 0 15px 15px;
     display: flex;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 .navbar {
@@ -53,7 +78,7 @@ p a {
     color: #A3B7DD;
     text-align: left;
     display: grid;
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: auto 1fr 25%;
     max-height: 150px;
     border-radius: 0 0 10px 10px;
     align-items: center;
@@ -68,6 +93,7 @@ p a {
     font-size: 18px;
     font-weight: bold;
     justify-content: space-around;
+    padding-right: 10px;
 }
 
 .navigation a:hover {
@@ -210,7 +236,7 @@ p a {
     background-color: #436C95;
     display: grid;
     align-items: center;
-    grid-template-columns: auto 40%;
+    grid-template-columns: auto 25%;
     color: #DFE9FF;
     border-radius: 10px 10px 0 0;
     bottom: 0;
@@ -267,10 +293,12 @@ ul li a {
     color: #A3B7DD;
     text-align: right;
     display: grid;
-    grid-template-columns: 20% 1fr auto;
-    max-height: 150px;
+    grid-template-columns: 25% 50% auto;
+    height: 100px;
     border-radius: 0 0 10px 10px;
     align-items: center;
+    justify-items: center;
+    margin-top: 20px;
 }
 
 .productGridWrapper {
@@ -283,15 +311,6 @@ ul li a {
     justify-items: stretch;
     max-width: 1040px;
     margin-bottom: 30px;
-}
-
-.h1 {
-    background-color: #436C95;
-    font-size: 60px;
-    padding: 10px;
-    border-radius: 0 0 10px 10px;
-    margin-bottom: 0;
-    margin-top: 0.5em;
 }
 
 .account a {
