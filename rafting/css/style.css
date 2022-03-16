@@ -75,7 +75,7 @@ p a {
 
 .navbar {
     background-color: #436C95;
-    color: #A3B7DD;
+    color: #d8e2f9;
     text-align: left;
     display: grid;
     grid-template-columns: auto 1fr 25%;
@@ -107,7 +107,7 @@ p a {
 
 .navMenu {
     text-decoration: none;
-    color: #DFE9FF;
+    color: #d8e2f9;
     font-size: 20px;
     font-weight: 500;
 }
@@ -237,7 +237,7 @@ p a {
     display: grid;
     align-items: center;
     grid-template-columns: auto 25%;
-    color: #DFE9FF;
+    color: #d8e2f9;
     border-radius: 10px 10px 0 0;
     bottom: 0;
     width: 1040px;
@@ -271,7 +271,7 @@ ul li a {
 }
 
 .copyright {
-    color: #DFE9FF;
+    color: #d8e2f9;
     text-align: left;
     font-size: medium;
     padding-left: 1em;
@@ -290,7 +290,7 @@ ul li a {
 
 .shopNavigation {
     background-color: #436C95;
-    color: #A3B7DD;
+    color: #d8e2f9;
     text-align: right;
     display: grid;
     grid-template-columns: 25% 50% auto;
