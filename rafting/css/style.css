@@ -1,5 +1,5 @@
 body {
-    background-color: #EBF2FF;
+    background-color: #ffffff;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
@@ -366,7 +366,7 @@ input {
 
 .accordion {
     max-width: 700px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgb(24, 16, 16);
     border-radius: 5px;
     overflow: hidden;
     font-family: "Rubik", sans-serif;
