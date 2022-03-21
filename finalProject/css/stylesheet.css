@@ -1,0 +1,118 @@
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h1 {
+    border: 1px solid aliceblue;
+    color: black;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Yatra One', cursive;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Yatra One', cursive;
+}
+
+h3 {
+    background-color: rgb(13, 13, 24);
+    padding: 10px;
+    max-width: fit-content;
+    font-family: 'Yatra One', cursive;
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    /*background-color: #56B7F1;*/
+    display: grid;
+    grid-template-columns: auto 75%;
+    align-items: center;
+    height: 120px;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-left: 30px;
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.project_img_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.featured_contractor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+}
+
+
+/*li {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+}*/
+
+.main {
+    padding: 10px;
+    color: aliceblue;
+}
+
+h4 {
+    border-bottom: 1px solid aliceblue;
+    max-width: fit-content;
+}
