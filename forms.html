@@ -2,137 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Assignment</title>
-    <style>
-        body {
-            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .7)), url(formbg.jpg);
-            background-attachment: fixed;
-            background-position: center top;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        form {
-            margin: 0 auto;
-            width: 600px;
-            padding: 1em;
-            border: 1px solid #CCC;
-            border-radius: 1em;
-            background-color: rgb(243, 192, 155);
-            display: flex;
-            justify-content: center;
-            padding-top: 50px;
-            padding-bottom: 50px;
-            box-shadow: 0 0 20px rgb(24, 16, 16);
-        }
-        
-        h1 {
-            font-family: 'Rubik', sans-serif;
-            padding-top: 20px;
-            display: flex;
-            justify-content: center;
-            color: white;
-        }
-        
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        
-        form li+li {
-            margin-top: 1em;
-            margin-bottom: 0;
-        }
-        
-        label {
-            display: inline-block;
-            width: 100px;
-            text-align: right;
-            padding-right: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 22px;
-        }
-        
-        p {
-            display: inline-block;
-            text-align: right;
-            color: crimson;
-            margin: 0;
-            font-family: Helvetica, sans-serif;
-            font-size: 14px;
-            font-weight: 100;
-        }
-        
-        input,
-        textarea {
-            font: 1em sans-serif;
-            width: 300px;
-            height: 2em;
-            box-sizing: border-box;
-            border: 1px solid #999;
-            padding: 15px 10px 15px 10px;
-            border-radius: 10px;
-        }
-        
-        input:focus,
-        textarea:focus {
-            border-color: aqua;
-        }
-        
-        textarea {
-            vertical-align: top;
-            height: 10em;
-        }
-        
-        .button {
-            padding-left: 90px;
-        }
-        
-        button {
-            margin-left: 1.85em;
-            background-color: rgb(255, 145, 0);
-            padding: 10px;
-            border: 1px solid rgb(77, 75, 75);
-            border-radius: 10px;
-        }
-        
-        Copy to Clipboard
-    </style>
+    <link rel="stylesheet" href="css/form_style.css" />
 </head>
 
 <body>
-    <h1>
-        Feedback Form
-    </h1>
+    <h1>Feedback Form</h1>
     <form action="/my-handling-form-page" method="post">
         <ul>
             <li>
-
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" required="required">
+                <input type="text" id="name" name="user_name" required="required" />
                 <p>(Name required)</p>
-
             </li>
             <li>
                 <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_email" required="required">
+                <input type="email" id="mail" name="user_email" required="required" />
                 <p>(E-mail required)</p>
             </li>
             <li>
                 <label for="msg">Message:</label>
                 <textarea id="msg" name="user_message" required="required"></textarea>
                 <p>(Message required)</p>
-
             </li>
             <li class="button">
                 <button type="submit">Send message</button>
             </li>
         </ul>
-
     </form>
 </body>
 
