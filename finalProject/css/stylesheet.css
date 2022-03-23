@@ -4,11 +4,12 @@ body {
 }
 
 h1 {
-    border: 1px solid aliceblue;
+    border: 1px solid #56B7F1;
     color: black;
     padding: 10px;
     font-size: 50px;
     font-family: 'Yatra One', cursive;
+    text-align: center;
 }
 
 h2 {
@@ -71,16 +72,53 @@ footer a {
     grid-gap: 20px;
 }
 
-.project_img_wrapper {
-    display: flex;
-    justify-content: center;
-}
-
 .featured_contractor {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 50px;
+}
+
+.featured_contractor_img {
+    padding: 10px;
+    background-color: black;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.projects_wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+}
+
+.project_img {
+    clip-path: polygon(48% 0, 100% 0%, 100% 100%, 47% 100%, 18% 51%);
+    width: 800px;
+    height: 533.4px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.project_categories ol li {
+    grid-column: 1/2;
+    padding: 12px;
+    font-family: 'lato', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.project_img_wrapper {
+    background-color: black;
+    clip-path: polygon(48% 0, 100% 0%, 100% 100%, 47% 100%, 18% 51%);
+    width: 820px;
+    height: 553.4px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    z-index: -10;
+    grid-column: 2/3;
 }
 
 .menu ul {
@@ -106,13 +144,3 @@ ul li a {
     color: black;
     font-weight: 900;
 }*/
-
-.main {
-    padding: 10px;
-    color: aliceblue;
-}
-
-h4 {
-    border-bottom: 1px solid aliceblue;
-    max-width: fit-content;
-}
