@@ -464,14 +464,13 @@ label {
 .message_field {
     height: 200px;
     width: 500px;
-    padding-left: 10px;
+    padding-left: 15px;
     border: 1px solid #0a2b4b;
     border-radius: 15px;
     margin-top: 10px;
-}
-
-.message_field ::placeholder {
-    text-align: start;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 15px;
+    font-size: larger;
 }
 
 .contact_button {
