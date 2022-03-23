@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Assignment</title>
     <style>
+        body {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .7)), url(formbg.jpg);
+            background-attachment: fixed;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
         form {
             margin: 0 auto;
             width: 600px;
@@ -19,6 +27,14 @@
             padding-top: 50px;
             padding-bottom: 50px;
             box-shadow: 0 0 20px rgb(24, 16, 16);
+        }
+        
+        h1 {
+            font-family: 'Rubik', sans-serif;
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+            color: white;
         }
         
         ul {
@@ -80,6 +96,8 @@
             margin-left: 1.85em;
             background-color: rgb(255, 145, 0);
             padding: 10px;
+            border: 1px solid rgb(77, 75, 75);
+            border-radius: 10px;
         }
         
         Copy to Clipboard
@@ -88,7 +106,7 @@
 
 <body>
     <h1>
-
+        Feedback Form
     </h1>
     <form action="/my-handling-form-page" method="post">
         <ul>
