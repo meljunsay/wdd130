@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+}
+
+.card {
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(24, 16, 16);
+    position: relative
+}
+
+.cirle {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    right: .35px;
+    top: .5px;
+}
+
+.likes {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: transform .2s;
+}
+
+.likes:hover {
+    transform: scale(1.3);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    font-family: "Acme", sans-serif;
+}
+
+.description {
+    text-align: justify;
+    line-height: 1.5;
+    font-family: 'rubik', sans-serif;
+}
+
+.floor_area {
+    position: absolute;
+    top: 610px;
+    right: 278px;
+    font-family: 'lato', sans-serif;
+    font-variant: small-caps tabular-nums;
+}
+
+footer {
+    padding: 20px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+button {
+    margin: 10px 10px 10px 0;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(204, 199, 122);
+    position: absolute;
+    right: 10px;
+}
+
+button a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(34, 30, 26);
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button a:hover {
+    background-color: black;
+    color: white;
+}
