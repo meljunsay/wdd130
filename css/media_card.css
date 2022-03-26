@@ -63,28 +63,28 @@ footer {
     margin-bottom: 40px;
 }
 
-button {
+.button {
     margin: 10px 10px 10px 0;
-    padding: 8px;
-    border-radius: 3px;
     border: none;
-    background-color: rgb(204, 199, 122);
     position: absolute;
     right: 10px;
 }
 
-button a {
+
+/* .button:hover {
+    background-color: black;
+} */
+
+.button a:hover {
+    color: white;
+    background-color: black;
+}
+
+.button a {
+    font-family: "Rubik", sans-serif;
+    background-color: rgb(204, 199, 122);
     text-decoration: none;
-    font-family: 'Rubik', sans-serif;
-    color: rgb(34, 30, 26);
-}
-
-button:hover {
-    background-color: black;
-    color: white;
-}
-
-button a:hover {
-    background-color: black;
-    color: white;
+    color: black;
+    padding: 8px 10px 8px 10px;
+    border-radius: 3px;
 }
