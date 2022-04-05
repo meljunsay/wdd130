@@ -50,10 +50,10 @@ h1 {
 }
 
 .floor_area {
+    display: block;
     position: absolute;
-    top: 610px;
-    right: 278px;
-    font-family: 'lato', sans-serif;
+    top: 290px;
+    left: 20px font-family: 'lato', sans-serif;
     font-variant: small-caps tabular-nums;
 }
 
