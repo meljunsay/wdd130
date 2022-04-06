@@ -391,12 +391,59 @@ button:hover {
 }
 
 .steps {
-    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 100px auto 100px auto;
+    width: 1200px;
+    height: 800px;
     z-index: -7;
+    display: grid;
+    list-style: none;
+    padding: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
 
-.steps ul li {
-    list-style: none;
+.steps div {
+    padding: 30px;
+}
+
+.steps img {
+    width: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 25px auto;
+    display: block;
+    box-shadow: 0 0 20px rgb(73, 69, 69);
+}
+
+.step1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-bottom: 20px;
+}
+
+
+/* .icon1 .icon2 .icon3 .icon4 {
+    
+} */
+
+.step2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.step3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-bottom: 20px;
+}
+
+.step4 {
+    grid-column: 4/5;
+    grid-row: 2/3;
 }
 
 .story_wrapper {
